@@ -11,6 +11,9 @@ ReactDOM.render(
         <ComParamentro
             titulo="Esse é o título"
             subtitulo="Esse é o subtítulo" />
+        <ComParamentro
+            titulo="Opa"
+            subtitulo="Epa" />
     </>,
     document.getElementById('root')
 )
