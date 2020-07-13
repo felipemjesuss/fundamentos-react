@@ -4,18 +4,23 @@ import ReactDOM from 'react-dom'
 
 // import Primeiro from './components/Primeiro'
 // import ComParamentro from './components/ComParamentro'
-import ComFilhos from './components/ComFilhos'
+// import ComFilhos from './components/ComFilhos'
+import Card from './components/layout/Card'
 
 ReactDOM.render(
     <>
-        <ComFilhos>
+        <Card
+            titulo="Exercício X">
+            Conteúdo
+        </Card>
+        {/* <ComFilhos>
             <ul>
                 <li>Ana</li>
                 <li>Bia</li>
                 <li>Carlos</li>
                 <li>Daniel</li>
             </ul>
-        </ComFilhos>
+        </ComFilhos> */}
         {/* <Primeiro />
         <ComParamentro
             titulo="Esse é o título"
