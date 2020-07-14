@@ -6,9 +6,15 @@ import ComParamentro from './components/ComParamentro'
 import ComFilhos from './components/ComFilhos'
 import Card from './components/layout/Card'
 import Repeticao from './components/Repeticao'
+import Condicional from './components/Condicional'
 
 export default props => 
     <div className="App">
+        <Card
+            titulo="#05 - Condicional v1">
+            <Condicional 
+                numero={11} />
+        </Card>
         <Card
             titulo="#04 - Repetição">
             <Repeticao />
