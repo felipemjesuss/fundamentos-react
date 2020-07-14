@@ -8,9 +8,15 @@ import Card from './components/layout/Card'
 import Repeticao from './components/basicos/Repeticao'
 import Condicional from './components/basicos/Condicional'
 import CondicionalComIf from './components/basicos/CondicionalComIf'
+import Pai from './components/comunicacao/direta/Pai'
 
 export default props => 
     <div className="App">
+        <Card
+            titulo="#07 - Comunicação Direta"
+            color="#E1D041">
+            <Pai />
+        </Card>
         <Card
             titulo="#06 - Condicional v2"
             color="#FA6900">
