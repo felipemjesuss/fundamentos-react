@@ -15,7 +15,7 @@ export default props =>
         <Card
             titulo="#07 - Comunicação Direta"
             color="#E1D041">
-            <Pai />
+            <Pai sobrenome="Freitas" />
         </Card>
         <Card
             titulo="#06 - Condicional v2"
