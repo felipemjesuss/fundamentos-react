@@ -2,13 +2,17 @@ import './index.css'
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-// import Primeiro from './components/Primeiro'
+import Primeiro from './components/Primeiro'
 // import ComParamentro from './components/ComParamentro'
 // import ComFilhos from './components/ComFilhos'
 import Card from './components/layout/Card'
 
 ReactDOM.render(
     <>
+        <Card
+            titulo="Primeiro Componente">
+            <Primeiro />
+        </Card>
         <Card
             titulo="Exercício X">
             Conteúdo
