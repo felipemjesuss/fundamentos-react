@@ -9,7 +9,7 @@ import Card from './components/layout/Card'
 export default props => 
     <div className="App">
         <Card
-            titulo="Componente Com Filhos">
+            titulo="#03 - Componente Com Filhos">
             <ComFilhos>
                 <ul>
                     <li>Ana</li>
@@ -20,13 +20,13 @@ export default props =>
             </ComFilhos>
         </Card>
         <Card
-            titulo="Componente Com Parâmentro">
+            titulo="#02 - Componente Com Parâmentro">
             <ComParamentro
                 titulo="Esse é o título"
                 subtitulo="Esse é o subtítulo" />
         </Card>
         <Card
-            titulo="Primeiro Componente">
+            titulo="#01 - Primeiro Componente">
             <Primeiro />
         </Card>
         {/* <ComFilhos>
